@@ -8,5 +8,5 @@ import org.springframework.web.bind.annotation.RequestMapping
 @RequestMapping("/")
 class HomeController {
     @GetMapping
-    fun index() = "index.html"
+    fun index() = "index"
 }

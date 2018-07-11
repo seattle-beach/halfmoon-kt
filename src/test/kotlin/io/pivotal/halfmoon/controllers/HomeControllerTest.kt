@@ -29,6 +29,6 @@ class HomeControllerTest {
     fun index() {
         mockMvc.perform(get("/"))
                 .andExpect(status().isOk)
-                .andExpect(view().name("index.html"))
+                .andExpect(view().name("index"))
     }
 }
